@@ -159,14 +159,28 @@ A matriz completa está disponível em:
 
 Entre as principais evidências atualmente disponíveis estão:
 
-- protótipo web;
+- protótipo web Risk Bridge Maker;
+- capturas de tela do protótipo;
 - documentação arquitetural;
 - documentação metodológica;
 - manual do usuário;
 - termo de aceite;
 - documentação do projeto.
 
-Novas evidências, como capturas de tela, diagramas, resultados de testes e outros artefatos, poderão ser adicionadas ao repositório conforme forem disponibilizadas.
+As capturas de tela estão armazenadas em:
+
+```text
+assets/
+└── screenshots/
+    ├── 01-tela-inicial.png
+    ├── 02-tela-simulador.png
+    ├── 03-cenario-decisao.png
+    └── 04-cenario-decisao2.png
+```
+
+A documentação detalhada das capturas está disponível em:
+
+[`docs/evidencias/prototipo.md`](docs/evidencias/prototipo.md)
 
 ---
 
@@ -199,6 +213,11 @@ riskgov/
 ├── assets/
 │   ├── diagrams/
 │   └── screenshots/
+│       ├── .gitkeep
+│       ├── 01-tela-inicial.png
+│       ├── 02-tela-simulador.png
+│       ├── 03-cenario-decisao.png
+│       └── 04-cenario-decisao2.png
 │
 ├── docs/
 │   ├── arquitetura/
@@ -213,7 +232,9 @@ riskgov/
 
 ## Estado Atual do Projeto
 
-O RiskGov encontra-se documentado como um **projeto de demonstração e capacitação**, apoiado por um protótipo web e por documentação conceitual, metodológica e de evidências.
+O RiskGov encontra-se documentado como um **projeto de demonstração e capacitação**, apoiado por um protótipo web demonstrável, capturas de tela e documentação conceitual, metodológica e de evidências.
+
+As capturas de tela constituem evidências visuais de elementos e fluxos observáveis no protótipo, não representando, isoladamente, comprovação de todas as funcionalidades descritas na documentação conceitual.
 
 O repositório busca manter uma separação clara entre:
 
@@ -247,10 +268,9 @@ Esses itens permanecem fora das afirmações de implementação até que sejam d
 
 ## Próximas Evidências
 
-A evolução da documentação poderá incluir:
+A evolução da documentação poderá incluir novas evidências e artefatos, tais como:
 
-- capturas de tela do protótipo;
-- evidências do fluxo de simulação;
+- evidências adicionais do fluxo de simulação;
 - evidências das decisões realizadas;
 - resultados de simulações;
 - diagramas arquiteturais;
@@ -259,11 +279,15 @@ A evolução da documentação poderá incluir:
 - registros de execução;
 - documentação complementar da metodologia.
 
-As evidências visuais serão armazenadas em:
+As evidências visuais já disponíveis estão armazenadas em:
 
 ```text
 assets/
 └── screenshots/
+    ├── 01-tela-inicial.png
+    ├── 02-tela-simulador.png
+    ├── 03-cenario-decisao.png
+    └── 04-cenario-decisao2.png
 ```
 
 Os diagramas serão armazenados em:
@@ -287,6 +311,10 @@ Simulador:
 
 https://risk-bridge-maker.lovable.app/simulador
 
+A documentação do protótipo e suas evidências visuais estão disponíveis em:
+
+[`docs/evidencias/prototipo.md`](docs/evidencias/prototipo.md)
+
 ---
 
 ## Termo de Aceite
@@ -308,4 +336,3 @@ A documentação do RiskGov segue o princípio:
 > **Declarar o que foi projetado, demonstrar o que está disponível e comprovar o que foi efetivamente implementado.**
 
 Essa abordagem é utilizada para manter o projeto tecnicamente transparente e evitar a apresentação de capacidades não comprovadas como funcionalidades existentes.
-
