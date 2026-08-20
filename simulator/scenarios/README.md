@@ -6,6 +6,8 @@ Este diretório é destinado à documentação dos cenários utilizados ou previ
 
 Os cenários representam situações de risco utilizadas para exercícios de análise, tomada de decisão e avaliação das consequências das ações escolhidas pelo participante.
 
+Neste momento, este diretório possui finalidade principalmente documental e estrutural. A documentação de um cenário não implica, isoladamente, que ele esteja implementado ou disponível no protótipo.
+
 ---
 
 ## 2. Estrutura Conceitual
