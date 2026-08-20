@@ -4,7 +4,14 @@
 
 Este documento registra o nível de evidência disponível para as principais características, entregas e afirmações relacionadas ao projeto RiskGov.
 
-A matriz tem como objetivo manter a documentação tecnicamente precisa, diferenciando funcionalidades comprovadas, características declaradas no briefing e itens que não possuem evidência suficiente.
+A matriz tem como objetivo manter a documentação tecnicamente precisa, diferenciando:
+
+- funcionalidades e entregas comprovadas;
+- características declaradas na documentação do projeto;
+- itens que ainda dependem de evidências adicionais;
+- características que não foram comprovadas e não devem ser apresentadas como implementadas.
+
+A matriz também serve como referência para a elaboração do README e demais documentos do portfólio.
 
 ---
 
@@ -12,10 +19,10 @@ A matriz tem como objetivo manter a documentação tecnicamente precisa, diferen
 
 | Classificação | Significado |
 |---|---|
-| 🟢 Comprovado | Existe artefato, protótipo ou documentação suficiente para sustentar a afirmação |
-| 🟡 Declarado | A característica aparece no briefing, documentação ou termo de aceite, mas ainda requer evidência técnica adicional |
-| 🟠 Pendente | Existe indicação ou intenção, mas falta o artefato necessário para comprovação |
-| 🔴 Não comprovado | Não existe evidência suficiente e a característica não deve ser apresentada como implementada |
+| 🟢 **Comprovado** | Existe artefato, protótipo, documento ou evidência suficiente para sustentar a afirmação. |
+| 🟡 **Declarado** | A característica aparece no briefing, metodologia, manual, documentação ou termo de aceite, mas ainda requer evidência técnica adicional para ser apresentada como implementação efetiva. |
+| 🟠 **Pendente** | Existe indicação, intenção ou entrega prevista, mas o artefato necessário para comprovação ainda não foi disponibilizado. |
+| 🔴 **Não comprovado** | Não existe evidência suficiente para sustentar a afirmação como funcionalidade implementada. Não deve ser apresentada dessa forma no portfólio. |
 
 ---
 
@@ -23,29 +30,31 @@ A matriz tem como objetivo manter a documentação tecnicamente precisa, diferen
 
 | Item | Status | Evidência disponível | Tratamento no portfólio |
 |---|---|---|---|
-| Projeto RiskGov | 🟢 Comprovado | Documentação do projeto e Termo de Aceite | Apresentar como projeto concluído |
-| Protótipo do simulador | 🟢 Comprovado | Protótipo Risk Bridge Maker hospedado | Apresentar como protótipo funcional |
-| Simulação de cenários | 🟢 Comprovado | Simulador disponível para demonstração | Apresentar como funcionalidade do protótipo |
-| Módulo LEARN | 🟡 Declarado | Briefing e documentação do projeto | Apresentar como módulo concebido/documentado |
-| Motor G-KRI | 🟡 Declarado | Briefing e documentação conceitual | Não afirmar implementação técnica sem evidência |
-| 40 cenários | 🟡 Declarado | Briefing e documentação | Não afirmar catálogo completo sem evidência |
-| Dashboard / Matriz Viva | 🟡 Declarado | Documentação do projeto | Confirmar implementação específica antes de afirmar |
-| Pipeline ETL | 🟡 Declarado | Documentação do projeto | Requer evidência técnica |
-| Gamificação | 🟡 Declarado | Documentação do simulador | Apresentar conforme funcionalidades efetivamente observadas |
-| Logs imutáveis | 🟡 Declarado | Briefing e Termo de Aceite | Não afirmar imutabilidade técnica sem evidência |
-| Base normativa | 🟡 Declarado | Documentação e referências do projeto | Apresentar como base metodológica |
-| UAT | 🟡 Declarado | Termo de Aceite registra testes aprovados | Manter como declarado até disponibilização do artefato de UAT |
-| Cloud deployment | 🟡 Declarado | Protótipo hospedado em ambiente web | Não confundir hospedagem do protótipo com arquitetura cloud corporativa |
-| Documentação ArchiMate | 🟡 Declarado | Documentação prevista no projeto | Confirmar artefatos no repositório |
-| Pitch final | 🟡 Declarado | Termo/documentação do projeto | Requer disponibilização do artefato |
-| Validação acadêmica | 🟡 Declarado | Termo de Aceite com aprovador | Manter como validação/aceite documentado |
-| Monitoramento produtivo | 🔴 Não comprovado | Nenhuma evidência apresentada | Não afirmar |
-| Integração com Jira/GLPI/ServiceNow | 🔴 Não comprovado | Nenhuma integração real comprovada | Não afirmar |
+| Projeto RiskGov | 🟢 Comprovado | Documentação do projeto, protótipo e Termo de Aceite | Apresentar como projeto acadêmico concluído e documentado |
+| Aplicação web demonstrável | 🟢 Comprovado | Protótipo Risk Bridge Maker hospedado em ambiente web | Apresentar como protótipo web demonstrável |
+| Protótipo do simulador | 🟢 Comprovado | Protótipo Risk Bridge Maker com acesso ao módulo de simulação | Apresentar como protótipo funcional |
+| Simulação de cenários | 🟢 Comprovado | Módulo de simulação disponível para demonstração | Apresentar como funcionalidade demonstrável do protótipo |
+| Termo de Aceite | 🟢 Comprovado | Documento de aceite contendo projeto, entregas, testes, documentação e aprovação | Apresentar como evidência documental de encerramento e aceite |
+| Módulo LEARN | 🟡 Declarado | Briefing, manual e documentação do projeto | Apresentar como módulo concebido/documentado; confirmar funcionalidades específicas por evidência |
+| Motor G-KRI | 🟡 Declarado | Briefing e documentação conceitual | Não afirmar implementação técnica completa sem evidência adicional |
+| 40 cenários de crise | 🟡 Declarado | Briefing e documentação do projeto | Não afirmar catálogo completo de 40 cenários sem evidência da aplicação |
+| Dashboard / Matriz Viva | 🟡 Declarado | Briefing, metodologia e documentação conceitual | Confirmar implementação específica antes de apresentar como funcionalidade concluída |
+| Pipeline ETL | 🟡 Declarado | Documentação do projeto | Requer evidência técnica, código ou artefato de execução |
+| Gamificação | 🟡 Declarado | Briefing, manual e documentação do simulador | Apresentar somente de acordo com funcionalidades efetivamente observadas no protótipo |
+| Logs imutáveis | 🟡 Declarado | Briefing e Termo de Aceite | Não afirmar imutabilidade técnica sem evidência de implementação |
+| Base normativa | 🟡 Declarado | Documentação e referências do projeto | Apresentar como base metodológica e normativa utilizada no projeto |
+| UAT | 🟡 Declarado | Termo de Aceite registra testes realizados e aprovados | Manter como declarado até disponibilização do artefato formal de UAT |
+| Cloud deployment | 🟡 Declarado | Protótipo hospedado em ambiente web | Apresentar como hospedagem do protótipo; não caracterizar como arquitetura cloud corporativa |
+| Documentação ArchiMate | 🟡 Declarado | Documentação e referências arquiteturais do projeto | Confirmar os artefatos efetivamente disponibilizados no repositório |
+| Pitch final | 🟡 Declarado | Documentação/Termo de Aceite | Requer disponibilização do vídeo ou arquivo correspondente |
+| Validação acadêmica | 🟡 Declarado | Termo de Aceite com responsável pela aprovação | Apresentar como aceite/validação documental do projeto, sem extrapolar para validação científica |
+| Monitoramento produtivo | 🔴 Não comprovado | Nenhuma evidência de ambiente produtivo apresentada | Não afirmar |
+| Integração com Jira/GLPI/ServiceNow | 🔴 Não comprovado | Nenhuma integração real apresentada | Não afirmar |
 | Integração com infraestrutura corporativa | 🔴 Não comprovado | Nenhuma evidência apresentada | Não afirmar |
-| IA preditiva | 🔴 Não comprovado | Não implementada/comprovada | Não afirmar como funcionalidade |
+| IA preditiva | 🔴 Não comprovado | Não implementada ou comprovada | Não afirmar como funcionalidade existente |
 | Certificação ISO | 🔴 Não comprovado | Nenhuma certificação apresentada | Não afirmar |
-| SLA de 99,5% | 🔴 Não comprovado | Nenhuma evidência apresentada | Não afirmar |
-| Resposta automática a incidentes | 🔴 Não comprovado | Nenhuma evidência apresentada | Retirar do escopo do projeto |
+| SLA de 99,5% | 🔴 Não comprovado | Nenhuma evidência de SLA ou monitoramento de disponibilidade apresentada | Não afirmar |
+| Resposta automática a incidentes | 🔴 Não comprovado | Nenhuma evidência apresentada | Retirar do escopo funcional do projeto |
 
 ---
 
@@ -53,41 +62,61 @@ A matriz tem como objetivo manter a documentação tecnicamente precisa, diferen
 
 ### 4.1 Protótipo
 
-Protótipo do RiskGov / Risk Bridge Maker:
+O projeto possui um protótipo web denominado Risk Bridge Maker, utilizado como representação funcional da proposta do RiskGov.
 
-- Página principal: `https://risk-bridge-maker.lovable.app/`
-- Simulador: `https://risk-bridge-maker.lovable.app/simulador`
+**Página principal:**
 
-O protótipo constitui evidência da existência de uma aplicação web para demonstração da proposta do projeto.
+https://risk-bridge-maker.lovable.app/
+
+**Módulo de simulação:**
+
+https://risk-bridge-maker.lovable.app/simulador
+
+O protótipo constitui evidência da existência de uma aplicação web demonstrável relacionada à proposta do projeto.
+
+A existência do protótipo, entretanto, não deve ser interpretada automaticamente como comprovação de todas as funcionalidades descritas na documentação conceitual.
 
 ---
 
 ### 4.2 Termo de Aceite
 
-O Termo de Aceite registra:
+O Termo de Aceite do projeto registra:
 
-- Identificação do projeto;
-- Período de execução;
-- Entregas;
-- Critérios de aceite;
-- Testes realizados;
-- Documentação entregue;
-- Aceite integral;
-- Responsável pela aprovação.
+- identificação do projeto;
+- responsáveis;
+- período de execução;
+- data de entrega e aceite;
+- objetivo;
+- escopo;
+- entregas;
+- critérios de aceite;
+- testes realizados;
+- documentação entregue;
+- participantes;
+- aceite integral;
+- responsável pela aprovação.
 
 O documento constitui evidência documental do encerramento e aceite do projeto.
+
+O Termo de Aceite não deve ser utilizado isoladamente para comprovar características técnicas específicas que não possuam artefato correspondente.
 
 ---
 
 ### 4.3 Manual do Usuário
 
-O manual descreve:
+O Manual do Usuário descreve:
 
-- Visão geral da plataforma;
-- Arquitetura conceitual;
-- Fluxo de utilização;
-- Conceitos relacionados ao simulador;
-- Relação entre risco e tomada de decisão.
+- visão geral da plataforma;
+- arquitetura conceitual;
+- fluxo de utilização;
+- módulo de simulação;
+- tomada de decisão;
+- indicadores e resultados;
+- conceitos relacionados à capacitação e análise de riscos.
+
+O manual constitui evidência documental da forma como o funcionamento da plataforma foi concebido e documentado.
+
+As funcionalidades descritas no manual devem ser diferenciadas daquelas efetivamente comprovadas por meio do protótipo ou de outros artefatos técnicos.
 
 ---
 
@@ -95,72 +124,31 @@ O manual descreve:
 
 O repositório contém documentação relacionada a:
 
-- Briefing;
-- Arquitetura conceitual;
-- Metodologia;
-- Evidências.
+- briefing;
+- metodologia;
+- arquitetura;
+- funcionamento conceitual;
+- evidências;
+- protótipo;
+- termo de aceite.
 
-Esses documentos devem ser utilizados para diferenciar a concepção do projeto de suas implementações efetivamente comprovadas.
+Essa documentação permite compreender a proposta, arquitetura e metodologia do RiskGov.
 
----
-
-## 5. Regras de Comunicação do Projeto
-
-Para manter a precisão técnica do portfólio, devem ser utilizadas as seguintes regras:
-
-### Quando houver evidência
-
-Utilizar termos como:
-
-- "implementado";
-- "disponível no protótipo";
-- "demonstrado";
-- "testado";
-- "entregue".
-
-### Quando houver apenas documentação
-
-Utilizar termos como:
-
-- "proposto";
-- "concebido";
-- "modelado";
-- "documentado";
-- "declarado no projeto".
-
-### Quando não houver evidência
-
-Não apresentar a característica como funcionalidade existente.
+Documentos conceituais não devem ser utilizados isoladamente como prova de implementação técnica.
 
 ---
 
-## 6. Itens Explicitamente Fora das Afirmações
+## 5. Evidências que Podem Ser Adicionadas
 
-O RiskGov não deve ser apresentado como:
+A matriz poderá ser atualizada conforme novos artefatos forem incorporados ao repositório.
 
-- Plataforma de monitoramento corporativo em produção;
-- Sistema certificado pela ISO;
-- Plataforma com SLA garantido de 99,5%;
-- Sistema integrado a Jira, GLPI ou ServiceNow;
-- Sistema de resposta automática a incidentes;
-- Plataforma de inteligência artificial preditiva;
-- Solução operacional de substituição de ferramentas ITSM.
-
----
-
-## 7. Atualização da Matriz
-
-Esta matriz deve ser atualizada sempre que novos artefatos forem adicionados ao repositório.
-
-Exemplos de evidências futuras:
+Exemplos:
 
 ```text
-screenshots/
-vídeos/
-scripts/
-código-fonte/
-relatórios/
-resultados de testes/
-documentos de UAT/
-diagramas/
-logs de execução/
+assets/
+└── screenshots/
+    ├── tela-inicial.png
+    ├── selecao-cenario.png
+    ├── decisao-simulacao.png
+    ├── resultado-simulacao.png
+    └── dashboard.png
