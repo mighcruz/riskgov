@@ -104,3 +104,4 @@ Evolução do Cenário
 Resultado
         ↓
 Aprendizado / Governança
+```
