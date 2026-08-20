@@ -30,14 +30,16 @@ A matriz também serve como referência para a elaboração do README e demais d
 
 | Item | Status | Evidência disponível | Tratamento no portfólio |
 |---|---|---|---|
-| Projeto RiskGov | 🟢 Comprovado | Documentação do projeto, protótipo e Termo de Aceite | Apresentar como projeto acadêmico concluído e documentado |
-| Aplicação web demonstrável | 🟢 Comprovado | Protótipo Risk Bridge Maker hospedado em ambiente web | Apresentar como protótipo web demonstrável |
-| Protótipo do simulador | 🟢 Comprovado | Protótipo Risk Bridge Maker com acesso ao módulo de simulação | Apresentar como protótipo funcional |
-| Simulação de cenários | 🟢 Comprovado | Módulo de simulação disponível para demonstração | Apresentar como funcionalidade demonstrável do protótipo |
+| Projeto RiskGov | 🟢 Comprovado | Documentação do projeto, protótipo e Termo de Aceite | Apresentar como projeto de demonstração e capacitação documentado |
+| Aplicação web demonstrável | 🟢 Comprovado | Protótipo Risk Bridge Maker hospedado em ambiente web e capturas de tela | Apresentar como protótipo web demonstrável |
+| Protótipo do simulador | 🟢 Comprovado | Módulo `/simulador` e captura `02-tela-simulador.png` | Apresentar como protótipo funcional demonstrável |
+| Simulação de cenários | 🟢 Comprovado | Interface do simulador e capturas relacionadas ao fluxo de cenário | Apresentar como funcionalidade demonstrável do protótipo |
+| Fluxo de tomada de decisão | 🟢 Comprovado | Capturas `03-cenario-decisao.png` e `04-cenario-decisao2.png` | Apresentar como fluxo de decisão visualmente demonstrado |
+| Evidências visuais do protótipo | 🟢 Comprovado | Quatro capturas armazenadas em `assets/screenshots/` | Apresentar como evidência visual da interface |
 | Termo de Aceite | 🟢 Comprovado | Documento de aceite contendo projeto, entregas, testes, documentação e aprovação | Apresentar como evidência documental de encerramento e aceite |
 | Módulo LEARN | 🟡 Declarado | Briefing, manual e documentação do projeto | Apresentar como módulo concebido/documentado; confirmar funcionalidades específicas por evidência |
 | Motor G-KRI | 🟡 Declarado | Briefing e documentação conceitual | Não afirmar implementação técnica completa sem evidência adicional |
-| 40 cenários de crise | 🟡 Declarado | Briefing e documentação do projeto | Não afirmar catálogo completo de 40 cenários sem evidência da aplicação |
+| 40 cenários de crise | 🟡 Declarado | Briefing e documentação do projeto | Não afirmar catálogo completo de 40 cenários sem evidência específica |
 | Dashboard / Matriz Viva | 🟡 Declarado | Briefing, metodologia e documentação conceitual | Confirmar implementação específica antes de apresentar como funcionalidade concluída |
 | Pipeline ETL | 🟡 Declarado | Documentação do projeto | Requer evidência técnica, código ou artefato de execução |
 | Gamificação | 🟡 Declarado | Briefing, manual e documentação do simulador | Apresentar somente de acordo com funcionalidades efetivamente observadas no protótipo |
@@ -51,10 +53,10 @@ A matriz também serve como referência para a elaboração do README e demais d
 | Monitoramento produtivo | 🔴 Não comprovado | Nenhuma evidência de ambiente produtivo apresentada | Não afirmar |
 | Integração com Jira/GLPI/ServiceNow | 🔴 Não comprovado | Nenhuma integração real apresentada | Não afirmar |
 | Integração com infraestrutura corporativa | 🔴 Não comprovado | Nenhuma evidência apresentada | Não afirmar |
-| IA preditiva | 🔴 Não comprovado | Não implementada ou comprovada | Não afirmar como funcionalidade existente |
+| IA preditiva | 🔴 Não comprovado | Nenhuma implementação ou evidência técnica apresentada | Não afirmar como funcionalidade existente |
 | Certificação ISO | 🔴 Não comprovado | Nenhuma certificação apresentada | Não afirmar |
 | SLA de 99,5% | 🔴 Não comprovado | Nenhuma evidência de SLA ou monitoramento de disponibilidade apresentada | Não afirmar |
-| Resposta automática a incidentes | 🔴 Não comprovado | Nenhuma evidência apresentada | Retirar do escopo funcional do projeto |
+| Resposta automática a incidentes | 🔴 Não comprovado | Nenhuma evidência apresentada | Não afirmar como funcionalidade existente |
 
 ---
 
@@ -78,77 +80,14 @@ A existência do protótipo, entretanto, não deve ser interpretada automaticame
 
 ---
 
-### 4.2 Termo de Aceite
+### 4.2 Evidências Visuais
 
-O Termo de Aceite do projeto registra:
-
-- identificação do projeto;
-- responsáveis;
-- período de execução;
-- data de entrega e aceite;
-- objetivo;
-- escopo;
-- entregas;
-- critérios de aceite;
-- testes realizados;
-- documentação entregue;
-- participantes;
-- aceite integral;
-- responsável pela aprovação.
-
-O documento constitui evidência documental do encerramento e aceite do projeto.
-
-O Termo de Aceite não deve ser utilizado isoladamente para comprovar características técnicas específicas que não possuam artefato correspondente.
-
----
-
-### 4.3 Manual do Usuário
-
-O Manual do Usuário descreve:
-
-- visão geral da plataforma;
-- arquitetura conceitual;
-- fluxo de utilização;
-- módulo de simulação;
-- tomada de decisão;
-- indicadores e resultados;
-- conceitos relacionados à capacitação e análise de riscos.
-
-O manual constitui evidência documental da forma como o funcionamento da plataforma foi concebido e documentado.
-
-As funcionalidades descritas no manual devem ser diferenciadas daquelas efetivamente comprovadas por meio do protótipo ou de outros artefatos técnicos.
-
----
-
-### 4.4 Documentação Conceitual
-
-O repositório contém documentação relacionada a:
-
-- briefing;
-- metodologia;
-- arquitetura;
-- funcionamento conceitual;
-- evidências;
-- protótipo;
-- termo de aceite.
-
-Essa documentação permite compreender a proposta, arquitetura e metodologia do RiskGov.
-
-Documentos conceituais não devem ser utilizados isoladamente como prova de implementação técnica.
-
----
-
-## 5. Evidências que Podem Ser Adicionadas
-
-A matriz poderá ser atualizada conforme novos artefatos forem incorporados ao repositório.
-
-Exemplos:
+O repositório contém capturas de tela do protótipo armazenadas em:
 
 ```text
 assets/
 └── screenshots/
-    ├── tela-inicial.png
-    ├── selecao-cenario.png
-    ├── decisao-simulacao.png
-    ├── resultado-simulacao.png
-    └── dashboard.png
+    ├── 01-tela-inicial.png
+    ├── 02-tela-simulador.png
+    ├── 03-cenario-decisao.png
+    └── 04-cenario-decisao2.png
