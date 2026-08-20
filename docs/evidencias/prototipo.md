@@ -1,42 +1,78 @@
 # Protótipo — RiskGov / Risk Bridge Maker
 
-## Identificação
+## 1. Identificação
 
 O RiskGov possui um protótipo web desenvolvido para demonstrar a proposta de simulação e análise de riscos.
 
 A aplicação é apresentada sob a identificação **Risk Bridge Maker**.
 
-## Aplicação
+O protótipo foi desenvolvido como parte da demonstração do projeto RiskGov e representa a camada visual e interativa disponibilizada para apresentação da proposta.
 
-**URL:** https://risk-bridge-maker.lovable.app/
+---
 
-## Simulador
+## 2. Aplicação
 
-**URL:** https://risk-bridge-maker.lovable.app/simulador
+**Página principal:**
 
-## Finalidade
+https://risk-bridge-maker.lovable.app/
 
-O protótipo tem como finalidade demonstrar a experiência de interação com o conceito do RiskGov, especialmente a utilização de um ambiente de simulação de cenários de risco.
+A página principal representa o ponto de acesso à aplicação web do protótipo.
 
-## Natureza da evidência
+---
+
+## 3. Módulo de Simulação
+
+**Simulador:**
+
+https://risk-bridge-maker.lovable.app/simulador
+
+O endereço `/simulador` corresponde ao ambiente destinado à experiência de simulação de cenários de risco.
+
+A existência dessa interface constitui evidência da disponibilização de um protótipo web voltado à demonstração da proposta de simulação do RiskGov.
+
+---
+
+## 4. Finalidade do Protótipo
+
+O protótipo tem como finalidade demonstrar a experiência de interação com o conceito do RiskGov, especialmente:
+
+- simulação de cenários de risco;
+- análise de situações de crise;
+- tomada de decisão durante uma simulação;
+- apresentação de informações relacionadas ao risco;
+- apoio à interpretação dos resultados.
+
+Esses elementos devem ser considerados conforme sua disponibilidade efetiva na versão publicada do protótipo.
+
+---
+
+## 5. Natureza da Evidência
 
 A existência do protótipo comprova a disponibilidade de uma aplicação web acessível para demonstração.
 
-Entretanto, a disponibilidade do protótipo, isoladamente, não comprova:
+Entretanto, a existência e hospedagem do protótipo, isoladamente, não comprovam a existência de uma plataforma corporativa em produção.
+
+Portanto, o protótipo não deve ser utilizado como evidência isolada de:
 
 - operação em ambiente produtivo;
+- monitoramento real de infraestrutura corporativa;
 - integração com infraestrutura corporativa;
-- monitoramento real de infraestrutura;
-- arquitetura cloud corporativa;
-- SLA de disponibilidade;
 - integração real com Jira, GLPI ou ServiceNow;
+- arquitetura cloud corporativa;
+- SLA de disponibilidade de 99,5%;
+- certificação ISO;
 - previsão de risco por inteligência artificial;
-- resposta automática a incidentes.
+- resposta automática a incidentes;
+- operação contínua em ambiente corporativo.
 
-Esses aspectos somente serão classificados como implementados caso existam evidências técnicas correspondentes.
+Esses aspectos somente devem ser classificados como implementados quando existirem evidências técnicas correspondentes.
 
-## Relação com o RiskGov
+---
 
-O protótipo representa a camada demonstrável do projeto RiskGov e serve como evidência da existência de uma aplicação funcional voltada à simulação e visualização de conceitos relacionados à gestão de riscos.
+## 6. Evidências Visuais
 
-A documentação técnica complementar será organizada nas demais áreas deste repositório.
+As capturas de tela do protótipo serão armazenadas no diretório:
+
+```text
+assets/
+└── screenshots/
