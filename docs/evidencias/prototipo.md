@@ -71,8 +71,73 @@ Esses aspectos somente devem ser classificados como implementados quando existir
 
 ## 6. Evidências Visuais
 
-As capturas de tela do protótipo serão armazenadas no diretório:
+O protótipo possui capturas de tela armazenadas no diretório:
 
 ```text
 assets/
 └── screenshots/
+    ├── 01-tela-inicial.png
+    ├── 02-tela-simulador.png
+    ├── 03-cenario-decisao.png
+    └── 04-cenario-decisao2.png
+```
+As capturas constituem evidências visuais da interface disponibilizada pelo protótipo Risk Bridge Maker.
+
+### 6.1 Tela Inicial
+
+**Arquivo:**
+
+`assets/screenshots/01-tela-inicial.png`
+
+A captura registra a tela inicial da aplicação e sua identificação visual.
+
+Essa evidência sustenta a existência e a apresentação da aplicação web utilizada como protótipo do RiskGov.
+
+### 6.2 Tela do Simulador
+
+**Arquivo:**
+
+`assets/screenshots/02-tela-simulador.png`
+
+A captura registra a interface do módulo de simulação.
+
+Essa evidência sustenta a disponibilidade de uma interface destinada à experiência de simulação de cenários.
+
+### 6.3 Cenário de Decisão
+
+**Arquivo:**
+
+`assets/screenshots/03-cenario-decisao.png`
+
+A captura registra uma etapa do fluxo de simulação relacionada à análise do cenário e à tomada de decisão pelo participante.
+
+Essa evidência demonstra visualmente a representação de uma situação de decisão no protótipo.
+
+### 6.4 Segunda Etapa do Cenário de Decisão
+
+**Arquivo:**
+
+`assets/screenshots/04-cenario-decisao2.png`
+
+A captura registra uma segunda etapa do fluxo de decisão apresentado pelo protótipo.
+
+Essa evidência complementa a captura anterior e permite documentar a continuidade da experiência de simulação.
+
+### 6.5 Limitação das Evidências Visuais
+
+As capturas de tela comprovam os elementos visualmente observáveis nas respectivas interfaces.
+
+Isoladamente, elas não comprovam:
+
+- implementação de serviços de backend;
+- persistência de dados;
+- integração com sistemas corporativos;
+- monitoramento de infraestrutura;
+- arquitetura cloud corporativa;
+- inteligência artificial preditiva;
+- resposta automática a incidentes;
+- disponibilidade em ambiente produtivo;
+- SLA de disponibilidade;
+- certificação ou conformidade formal.
+
+Esses aspectos permanecem sujeitos às demais evidências técnicas do projeto.
