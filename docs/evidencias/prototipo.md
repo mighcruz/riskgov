@@ -89,6 +89,8 @@ As capturas constituem evidências visuais da interface disponibilizada pelo pro
 
 `assets/screenshots/01-tela-inicial.png`
 
+![Tela inicial do Risk Bridge Maker](../../assets/screenshots/01-tela-inicial.png)
+
 A captura registra a tela inicial da aplicação e sua identificação visual.
 
 Essa evidência sustenta a existência e a apresentação da aplicação web utilizada como protótipo do RiskGov.
@@ -98,6 +100,8 @@ Essa evidência sustenta a existência e a apresentação da aplicação web uti
 **Arquivo:**
 
 `assets/screenshots/02-tela-simulador.png`
+
+![Tela do Simulador](../../assets/screenshots/02-tela-simulador.png)
 
 A captura registra a interface do módulo de simulação.
 
@@ -109,6 +113,8 @@ Essa evidência sustenta a disponibilidade de uma interface destinada à experi�
 
 `assets/screenshots/03-cenario-decisao.png`
 
+![Cenário de Decisão](../../assets/screenshots/03-cenario-decisao.png)
+
 A captura registra uma etapa do fluxo de simulação relacionada à análise do cenário e à tomada de decisão pelo participante.
 
 Essa evidência demonstra visualmente a representação de uma situação de decisão no protótipo.
@@ -119,10 +125,11 @@ Essa evidência demonstra visualmente a representação de uma situação de dec
 
 `assets/screenshots/04-cenario-decisao2.png`
 
+![Segunda Etapa do Cenário de Decisão](../../assets/screenshots/04-cenario-decisao2.png)
+
 A captura registra uma segunda etapa do fluxo de decisão apresentado pelo protótipo.
 
 Essa evidência complementa a captura anterior e permite documentar a continuidade da experiência de simulação.
-
 ### 6.5 Limitação das Evidências Visuais
 
 As capturas de tela comprovam os elementos visualmente observáveis nas respectivas interfaces.
