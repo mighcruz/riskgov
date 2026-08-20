@@ -24,7 +24,5 @@ Decisão
 Consequência
    ↓
 Nova Situação
-```
-
    ↓
 Resultado
