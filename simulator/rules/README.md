@@ -2,9 +2,11 @@
 
 ## 1. Objetivo
 
-Este diretório é destinado à documentação das regras conceituais utilizadas pelo simulador RiskGov.
+Este diretório é destinado à documentação das regras conceituais relacionadas ao simulador RiskGov.
 
-As regras representam a lógica utilizada para relacionar situações de risco, decisões, consequências e resultados durante um exercício de simulação.
+As regras representam a lógica conceitual utilizada para relacionar situações de risco, informações disponíveis, decisões, consequências e resultados durante um exercício de simulação.
+
+Neste momento, este diretório possui finalidade principalmente documental e estrutural. A existência das regras documentadas não implica, isoladamente, a implementação de um motor automatizado de regras.
 
 ---
 
