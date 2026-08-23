@@ -107,4 +107,7 @@ A solução foi desenhada com base em microserviços e contratos de API, modelad
 
 ---
 
-**Autor:** Miguel H. Cruz | [LinkedIn](https://www.linkedin.com/in/miguelhcruz)
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguelhcruz)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mig.kruz@gmail.com)
